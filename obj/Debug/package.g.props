@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">vue-app</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.0.0</PackageJsonVersion>
+    <PackageJsonDescription Condition="$(PackageJsonDescription) == ''">VueApp</PackageJsonDescription>
+    <PackageJsonMain Condition="$(PackageJsonMain) == ''">server.js</PackageJsonMain>
+    <PackageJsonAuthorName Condition="$(PackageJsonAuthorName) == ''"></PackageJsonAuthorName>
+    <PackageJsonDevdependenciesEslint Condition="$(PackageJsonDevdependenciesEslint) == ''">^8.21.0</PackageJsonDevdependenciesEslint>
+    <PackageJsonDevdependenciesVite Condition="$(PackageJsonDevdependenciesVite) == ''">^6.0.3</PackageJsonDevdependenciesVite>
+    <PackageJsonDependenciesVitejsPluginVue Condition="$(PackageJsonDependenciesVitejsPluginVue) == ''">^5.2.1</PackageJsonDependenciesVitejsPluginVue>
+    <PackageJsonDependenciesVue Condition="$(PackageJsonDependenciesVue) == ''">^3.5.13</PackageJsonDependenciesVue>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">vite</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">vite build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsServe Condition="$(PackageJsonScriptsServe) == ''">vite preview</PackageJsonScriptsServe>
+  </PropertyGroup>
+</Project>
